@@ -1,0 +1,47 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1{
+  margin: 20px 20px 20px 20px;
+  color: #004f0e;
+  text-align: center;
+  font-size: 50px;
+  
+}
+button{
+  background: #004f0e;
+  color: white;
+  
+  
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  height: 80vh;
+  width: 100vw;
+  
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  gap: 20px;
+}
+#list li {
+  list-style: square;
+font-size: 20px;
+  background : #daffd9;
+  color: #004f0e;
+  margin-bottom : 20px;
+  
+  
+  
+}
+#list{
+  display: block;
+}
